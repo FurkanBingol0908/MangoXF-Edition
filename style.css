@@ -2,18 +2,50 @@
 
 }
 
+#garage-Door-nav:hover{
+    background-color: bisque;
+}
+
 #garage-Door-nav{
-    
+    border-radius: 10px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    font-weight: bold;
+    color: black;
+}
+
+#doorbell-Alarm-nav:hover{
+    background-color: bisque;
 }
 
 #doorbell-Alarm-nav{
+    border-radius: 10px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    font-weight: bold;
+    color: black;
+}
 
+#about-nav:hover{
+    background-color: bisque;
 }
 
 #about-nav{
+    border-radius: 10px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    font-weight: bold;
+    color: black;
+}
 
+#index-nav:hover{
+    background-color: bisque;
 }
 
 #index-nav{
-
+    border-radius: 10px;
+    background-color: gold;
+    border: 2px solid firebrick;
+    font-weight: bold;
+    color: black;
 }
