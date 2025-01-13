@@ -1,5 +1,7 @@
 .nav-Bar{
-
+margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 #garage-Door-nav:hover{
@@ -11,7 +13,8 @@
     background-color: gold;
     border: 2px solid firebrick;
     font-weight: bold;
-    color: black;
+    color: black;\
+
 }
 
 #doorbell-Alarm-nav:hover{
