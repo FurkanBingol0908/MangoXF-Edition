@@ -1,7 +1,9 @@
 .nav-Bar{
-margin: auto;
-  width: 50%;
-  padding: 10px;
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
 }
 
 #garage-Door-nav:hover{
