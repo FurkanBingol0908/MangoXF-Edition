@@ -3,32 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Micro:Bit Projects for Our Cardboard House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 60px;
+            line-height: 1.6;
+        }
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+        }
+        .project-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <nav class="nav-Bar">
-        <a href="garage-Door.html">
-            <button id="garage-Door-nav">Garage Door Opener</button>
-        </a>
-
-        <a href="doorbell-Alarm.html">
-            <button id="doorbell-Alarm-nav">Doorbell alarm</button>
-        </a>
-
-        <a href="about.html">
-            <button id="about-nav">About us</button>
-        </a>
-
-        <a href="index.html">
-            <button id="index-nav">Main</button>
-        </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fan.html">Fan Project</a>
+        <a href="garage.html">Garage Door Project</a>
     </nav>
 
-    <h1>
-        Please Choose a product to inspect
-    </h1>
-    
+    <h1>Welcome to Our Micro:Bit House Projects</h1>
 
+    <img src="images/cardboard-house-main.jpg" alt="Our cardboard house project with Micro:Bit gadgets">
+
+    <p>Welcome to our Grade 10 final project website! We created two amazing things for our cardboard house using Micro:Bit. These projects make our house more like a real home by adding working parts that you can control.</p>
+
+    <p>Our cardboard house has two special features that make it unique:</p>
+    <ul>
+        <li>A working fan that moves air through the house</li>
+        <li>A garage door that opens and closes automatically</li>
+    </ul>
+
+    <div class="project-box">
+        <h2>1. Micro:Bit Fan by Furkan</h2>
+        <img src="images/fan-preview.jpg" alt="Micro:Bit controlled fan in the cardboard house">
+        <p>This fan helps keep our cardboard house comfortable by moving air through all the rooms. Furkan created it using a Micro:Bit and a motor. You can control it with simple button presses:</p>
+        <ul>
+            <li>Press button A to start the fan spinning</li>
+            <li>Press button B to stop it</li>
+            <li>The fan moves air through every room in the house</li>
+        </ul>
+        <a href="fan.html">See how the fan works</a>
+    </div>
+
+    <div class="project-box">
+        <h2>2. Garage Door Opener by Xavier</h2>
+        <img src="images/garage-preview.jpg" alt="Micro:Bit controlled garage door">
+        <p>Xavier built this automatic garage door that works just like a real one. It's perfect for our cardboard house because:</p>
+        <ul>
+            <li>The door moves up and down smoothly</li>
+            <li>You can control it with Micro:Bit buttons</li>
+            <li>It makes our house more realistic</li>
+        </ul>
+        <a href="garage.html">Learn about the garage door</a>
+    </div>
+
+    <h3>Why We Made These Projects</h3>
+    <p>We wanted to show how simple technology can make things more interesting. Our cardboard house isn't just a model - it has working parts that make it special. These projects helped us learn about:</p>
+    <ul>
+        <li>How to use Micro:Bit to control things</li>
+        <li>Making our ideas work in real life</li>
+        <li>Creating useful features for a model house</li>
+    </ul>
 </body>
 </html>
